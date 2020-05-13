@@ -38,6 +38,7 @@ class Wall:
 
     def show(s):
         Shapes.line(s.x1,s.y1,s.x2,s.y2)
+
 def rbrain():
     from random import randint
     global lt
@@ -119,7 +120,7 @@ class Brain:
         return nb
 
 lt = 100 # number of steps brain is alive
-brainum =  2 # number of brains
+brainum =  50 # number of brains
 lr = .05 # learning rate
 walls = []
 #walls.append(Wall([-35,0],[35,5]))
